@@ -1,0 +1,189 @@
+/* header Section CSS */
+.myNavbar_section{
+   
+}
+/* About Section CSS */
+.blog_section{
+    background: #f9f9ff;
+}
+.my_btn{
+    background: #8490ff;
+    color: #fff !important;
+    border: 1px solid transparent;
+}
+.my_btn:hover{
+    background: #fff;
+    color: #8490ff !important;
+    border: 1px solid #8490ff;
+}
+
+/* Number Counter Section CSS */
+.numberC_section{
+    background: #8490ff;
+}
+
+/* Testimonial Section CSS */
+.testimonial_section{
+    background: #f9f9ff;
+}
+.head_01 {
+	width: 80px;
+	height: 80px;
+	background: #f9f9ff;
+	margin: 0 auto;
+	line-height: 80px;
+	border-radius: 50%;
+    transition: .5s;
+}
+.testimonial_item:hover .head_01{
+    background: #8490ff;
+    color: #fff;
+}
+.testimonial_item{
+    box-shadow: -2.2px 3px 30px rgba(132, 144, 255,.2);
+}
+.testimonial_btn {
+	border: 2px solid #8490ff;
+	padding: 10px 30px;
+	font-size: 1.3rem;
+	color: #8490ff;
+    box-shadow: -2.2px 3px 30px rgba(132, 144, 255,.2);
+    transition: .5s;
+}
+.testimonial_btn:hover{
+    background: #8490ff !important;
+    color: #fff;
+
+}
+
+
+/* Feedback Section CSS */
+.my_img {
+	width: 95px;
+	top: -85px;
+	left: 0;
+}
+.my_P{
+    margin-top: -10px;
+}
+.feedback_btn{
+    transition: .5s;
+}
+.feedback_btn:hover{
+    background: #8490ff !important;
+    color: #fff !important;
+}
+
+/* Form Section CSS */
+.form_section{
+    background: #f9f9ff;
+}
+.formLeft_area input {
+	margin-bottom: 25px;
+}
+.formRight_area {
+	margin-top: -8px !important;
+}
+.formLeft_area textarea {
+	margin-bottom: 20px;
+}
+
+/* Footer Section CSS */
+.footer_section{
+    background: #04091e;
+}
+
+
+/* Responsive CSS */
+@media (max-width: 992px) {
+    .blog_left {
+        margin-top: -48px !important;
+    }
+    .about_left img {
+        margin-top: 55px;
+    }
+    .about_right p {
+        font-size: 15px;
+        padding: 0 !important;
+    }
+    .counter_Item p {
+        font-size: 14px;
+    }
+
+    .testimonial_item {
+        padding: 25px 0 !important;
+    }
+    .testimonial_item h5 {
+        padding: 0 !important;
+        font-size: 16px;
+    }
+    .testimonial_item a {
+        padding: 5px 20px;
+        font-size: 18px;
+    }
+    .feedback_img img {
+        width: 70px;
+    }
+    .feedback_item {
+        padding: 0 0 !important;
+    }
+    .feedback_item h3 {
+        font-size: 22px;
+    }
+    .feedback_item p {
+        font-size: 15px;
+    }
+    .feedback_item a {
+        padding: 3px 18px !important;
+        font-size: 15px;
+    }
+    .formLeft_area {
+        margin-top: 0 !important;
+    }
+    .formRight_area {
+        margin-top: -50px !important;
+    }
+    .formLeft_area .form-control {
+        font-size: 15px;
+    }
+    .formLeft_area a {
+        padding: 10px 20px !important;
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 768px){
+    .blog_left {
+        margin-top: -65px !important;
+    }
+    .blog_left h1 {
+        padding: 5px 0 !important;
+    }
+    .blog_left p {
+        padding: 5px 0 !important;
+    }
+    .blog_left a {
+        padding: 8px 20px;
+        font-size: 17px;
+    }
+    .about_right p {
+        font-size: 13px !important;
+        text-align: justify;
+    }
+    .about_right a {
+        padding: 5px 18px;
+        font-size: 15px;
+        margin: 0 !important;
+    }
+    .counter_Item p {
+        font-size: 11px;
+        letter-spacing: -.8px;
+    }
+    .formLeft_area input {
+        margin-bottom: 15px !important;
+    }
+    .formLeft_area .form-control {
+        font-size: 13px;
+    }
+
+}
